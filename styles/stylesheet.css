@@ -47,6 +47,9 @@ body {
         border-style: solid;
         
     }
+    .photo p {
+        text-align: left;
+    }
     .p {
         margin-top: 5px;
         display: inline-block;
