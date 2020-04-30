@@ -1,6 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #dfc889;
+    /* background-color: #dfc889; */
+    background-color: black;
     text-align: center;
 }
 .container {
@@ -28,6 +29,7 @@ body {
     margin-top: 5px;
     display: inline-block;
     width: 360px;
+    margin-bottom: 20px;
 }
 .p img {
     width: 100%;
@@ -42,7 +44,7 @@ body {
         font-size: 35px;
     }
     .container {
-        margin: 30px 30px 30px 30px;
+        margin: 55px 30px 30px 30px;
         background-color: #f0efaa;
         display: inline-block;
         width: 80vw;
@@ -53,7 +55,8 @@ body {
         text-align: left;
     }
     .p {
-        margin-top: 5px;
+        margin-top: 30px;
+        margin-bottom: 25px;
         display: inline-block;
         width: 650px;
     }
