@@ -1,6 +1,6 @@
 body {
-    /* background-color: #dfc889; */
-    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #dfc889;
     text-align: center;
 }
 .container {
@@ -15,6 +15,9 @@ body {
     text-align: center;
     
 }
+.photo p{
+    margin-bottom: 20px;
+}
 .links {
     text-align: left;
 }
@@ -24,7 +27,7 @@ body {
 .p {
     margin-top: 5px;
     display: inline-block;
-    width: 370px;
+    width: 360px;
 }
 .p img {
     width: 100%;
