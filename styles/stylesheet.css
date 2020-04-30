@@ -35,13 +35,12 @@ body {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
     body {
-        font-size: 40px;
+        font-size: 35px;
     }
     .container {
         margin: 30px 30px 30px 30px;
         background-color: #f0efaa;
         display: inline-block;
-        height: 75vh;
         width: 80vw;
         border-style: solid;
         
