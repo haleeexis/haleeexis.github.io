@@ -25,6 +25,13 @@ body {
 .links a{
  color: black;
 }
+.links p {
+    margin-bottom: -2px;
+}
+
+.links p:last-child {
+    margin-bottom: 20px;
+  }
 .p {
     margin-top: 5px;
     display: inline-block;
@@ -64,5 +71,12 @@ body {
         width: 100%;
         height: auto;
     }
+    .links p {
+        margin-bottom:s -2px;
+    }
+    
+    .links p:last-child {
+        margin-bottom: 40px;
+      }
 
 }
