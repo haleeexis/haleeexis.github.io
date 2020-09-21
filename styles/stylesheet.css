@@ -1,82 +1,75 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    /* background-color: #dfc889; */
-    background-color: black;
-    text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  /* background-color: #dfc889; */
+  background-color: black;
+  text-align: center;
 }
 .container {
-    margin: 10px 10px 10px 10px;
-    background-color: #f0efaa;
-    display: inline-block;
-    padding: 20px 40px 20px 40px;
-    border-style: solid;
-    
+  margin: 8vh auto;
+  width: 35vw;
+  background-color: #f0efaa;
+  padding: 20px 40px 20px 40px;
+  border-style: solid;
 }
 .photo {
-    text-align: center;
-    
+  text-align: center;
 }
-.photo p{
-    margin-bottom: 20px;
+.photo p {
+  margin-bottom: 20px;
 }
 .links {
-    text-align: left;
+  text-align: left;
 }
-.links a{
- color: black;
+.links a {
+  color: black;
 }
 .links p {
-    margin-bottom: -2px;
+  margin-bottom: -2px;
 }
 
 .links p:last-child {
-    margin-bottom: 20px;
-  }
+  margin-bottom: 20px;
+}
 .p {
-    margin-top: 5px;
-    display: inline-block;
-    width: 360px;
-    margin-bottom: -10px;
+  margin-top: 5px;
+  display: inline-block;
+  width: 360px;
+  margin-bottom: -10px;
 }
 .p img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 /* mobile */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    body {
-        font-size: 35px;
-    }
-    .container {
-        margin: 55px 30px 30px 30px;
-        background-color: #f0efaa;
-        display: inline-block;
-        width: 80vw;
-        border-style: solid;
-        
-    }
-    .photo p {
-        text-align: left;
-    }
-    .p {
-        margin-top: 30px;
-        margin-bottom: 25px;
-        display: inline-block;
-        width: 650px;
-    }
-    .p img {
-        width: 100%;
-        height: auto;
-    }
-    .links p {
-        margin-bottom:s -2px;
-    }
-    
-    .links p:last-child {
-        margin-bottom: 40px;
-      }
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    font-size: 35px;
+  }
+  .container {
+    margin: 55px 30px 30px 30px;
+    background-color: #f0efaa;
+    display: inline-block;
+    width: 80vw;
+    border-style: solid;
+  }
+  .photo p {
+    text-align: left;
+  }
+  .p {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 650px;
+  }
+  .p img {
+    width: 100%;
+    height: auto;
+  }
+  .links p {
+    margin-bottom: s -2px;
+  }
 
+  .links p:last-child {
+    margin-bottom: 40px;
+  }
 }
