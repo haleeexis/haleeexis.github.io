@@ -58,8 +58,8 @@ p {
   grid-template-columns: 1fr;
   grid-template-areas:
     "header"
-    "me"
     "contact"
+    "me"
     "projects"
     "images";
 }
