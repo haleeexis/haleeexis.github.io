@@ -69,10 +69,10 @@ p {
   padding-right: 0.6em;
 }
 
-.clickable span:hover {
+/* .clickable span:hover {
   background-color: #304036;
   color: white;
-}
+} */
 
 a:link {
   color: black;
@@ -152,10 +152,10 @@ a:hover {
     grid-template-areas: "header me projects images contact";
   }
 
-  .clickable span:hover {
+  /* .clickable span:hover {
     background-color: #304036 !important;
     color: white !important;
-  }
+  } */
 
   header {
     width: 45%;

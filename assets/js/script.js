@@ -4,7 +4,7 @@ $(document).ready(function () {
     $(this).next().toggle();
     // $(this).css(".clickable span", "background-color: green;color: white;");
     $(this).find(">:first-child").css({
-      "background-color": "#304036",
+      "background-color": "black",
       color: "white",
     });
     if ($(this).next().css("display") == "none") {
@@ -16,4 +16,21 @@ $(document).ready(function () {
       });
     }
   });
+
+  $(".clickable span").hover(
+    function () {
+      $(this).css({
+        "background-color": "black",
+        color: "white",
+      });
+    },
+    function () {
+      if ($(this).parent().next().css("display") == "none") {
+        $(this).css({
+          "background-color": "transparent",
+          color: "black",
+        });
+      }
+    }
+  );
 });
