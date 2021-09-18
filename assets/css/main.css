@@ -71,8 +71,8 @@ p {
 }
 
 .clickable span:hover {
-  background-color: green !important;
-  color: white !important;
+  background-color: green;
+  color: white;
 }
 
 .showmore {
@@ -138,6 +138,12 @@ p {
     column-gap: 0;
     grid-template-areas: "header me projects images contact";
   }
+
+  .clickable span:hover {
+    background-color: green !important;
+    color: white !important;
+  }
+
   header {
     width: 45%;
   }
