@@ -4,7 +4,7 @@ $(document).ready(function () {
     $(this).next().toggle();
     // $(this).css(".clickable span", "background-color: green;color: white;");
     $(this).find(">:first-child").css({
-      "background-color": "green",
+      "background-color": "#304036",
       color: "white",
     });
     if ($(this).next().css("display") == "none") {
