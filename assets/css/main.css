@@ -137,6 +137,11 @@ a:hover {
   #indexLink {
     display: block;
   }
+
+  p {
+    margin: 0;
+    margin-bottom: 0.8em;
+  }
 }
 
 @media (min-width: 992px) {
@@ -162,5 +167,10 @@ a:hover {
     display: flex;
     align-content: space-between;
     width: 100%;
+  }
+
+  p {
+    margin: 0;
+    margin-bottom: 0.8em;
   }
 }
