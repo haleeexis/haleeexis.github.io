@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* p {
+  color: transparent;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+} */
+#wrapper {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 3em;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-size: 16px;
+}
+p {
+  margin: 0;
+  margin-bottom: 0.8em;
+}
+.main-head {
+  grid-area: header;
+}
+#me {
+  grid-area: me;
+}
+#projects {
+  grid-area: projects;
+}
+#images {
+  grid-area: images;
+}
+
+#contact {
+  grid-area: contact;
+}
+
+.infobox {
+  display: none;
+  flex-direction: column;
+  width: 80%;
+  /* border: 1px solid black; */
+}
+
+#wrapper {
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "header"
+    "contact"
+    "me"
+    "projects"
+    "images";
+  padding-bottom: 2em;
+}
+
+.clickable span {
+  padding-right: 0.6em;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.showmore {
+  display: none;
+}
+
+.showmore p {
+  width: 80%;
+}
+
+.showmore img {
+  width: 60%;
+  height: auto;
+}
+
+.img-caption {
+  display: inline-block;
+  width: 60%;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.space-divider {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+  #wrapper {
+    grid-template-columns: 4fr 4fr 4fr;
+    row-gap: 3em;
+    column-gap: 0;
+    grid-template-areas:
+      "header me projects"
+      "header images contact";
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  #gallery {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    grid-template-rows: auto;
+    /* border: 1px solid black; */
+  }
+
+  #indexLink {
+    display: block;
+  }
+
+  p {
+    margin: 0;
+    margin-bottom: 0.8em;
+  }
+}
+
+@media (min-width: 992px) {
+  #wrapper {
+    grid-template-columns: 4fr 4fr 4fr 4fr 4fr;
+    row-gap: 3em;
+    column-gap: 0;
+    grid-template-areas: "header me projects images contact";
+  }
+
+  header {
+    width: 45%;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  #photos {
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+  }
+
+  p {
+    margin: 0;
+    margin-bottom: 0.8em;
+  }
+}
